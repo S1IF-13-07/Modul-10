@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+    var huruf string
+    fmt.Print("Masukkan sebuah huruf: ")
+    fmt.Scan(&huruf)
+
+    if huruf == "A" ||  huruf == "I" || huruf == "U" || huruf == "E" || huruf == "O" || huruf == "a" || huruf == "i" || huruf == "u" || huruf == "e" || huruf == "o" {
+        fmt.Println("vokal")
+    } else if (huruf >= "a" && huruf <= "z") || (huruf >= "A" && huruf <= "Z") {
+        fmt.Println("konsonan")
+    } else {
+        fmt.Println("bukan huruf")
+    } 
+}
