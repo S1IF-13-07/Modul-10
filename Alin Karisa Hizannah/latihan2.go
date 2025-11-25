@@ -6,7 +6,7 @@ func main() {
 	var input rune
 
 	fmt.Print("Masukkan satu karakter: ")
-	fmt.Scan(&input)
+	fmt.Scanf("%c", &input)
 
 	if input == 'a' || input == 'i' || input == 'u' || input == 'e' || input == 'o' ||
 		input == 'A' || input == 'I' || input == 'U' || input == 'E' || input == 'O' {
